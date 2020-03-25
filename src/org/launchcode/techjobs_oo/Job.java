@@ -63,9 +63,6 @@ public class Job {
         return  job;
     }
 
-    // TODO: Add two constructors - one to initialize a unique ID and a second to initialize the
-    //  other five fields. The second constructor should also call the first in order to initialize
-    //  the 'id' field.
 @Override
 public int hashCode() {
     return Objects.hash(getId());
@@ -77,8 +74,6 @@ public int hashCode() {
     Job job = (Job) o;
     return getId() == job.getId();
     }
-    // TODO: Add custom equals and hashCode methods. Consider two Job objects "equal" when their id fields
-    //  match.
 
     public int getId() {
         return id;
@@ -104,8 +99,7 @@ public int hashCode() {
         return coreCompetency;
     }
 
-    // TODO: Add getters for each field EXCEPT nextId. Add setters for each field EXCEPT nextID
-    //  and id.
+
 
     public void setName(String name) {
         this.name = name;

@@ -9,9 +9,6 @@ public class PositionType extends JobField {
 
     }
 
-
-    // TODO: Add a custom toString() method that returns the data stored in 'value'.
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -20,11 +17,5 @@ public class PositionType extends JobField {
         return this.getId() == that.getId() &&
                 Objects.equals(getValue(), that.getValue());
     }
-
-
-    // TODO: Add custom equals and hashCode methods. Consider two PositionType objects "equal" when
-    //  their id fields match.
-
-    // Getters and Setters:
 
 }

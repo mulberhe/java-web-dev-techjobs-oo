@@ -29,7 +29,7 @@ public class JobTest {
 }
 @Test
     public void testToString(){
-        String str =  "Id: 1\n" +
+        String str =  "Id: 4\n" +
                 "Name: Product tester\n" +
                 "Employer: ACME\n" +
                 "Location: Desert\n" +
